@@ -2,9 +2,15 @@
 Summary
 *******
 
-CodeBug Connect runs programs from its 1MB of inbuilt storage. You can edit and 
-transfer your programs and datafiles either
-  - with a web browser over WiFi, or
+CodeBug Connect runs programs from its 1MB of inbuilt storage. CodeBug runs files
+that contain programs in the Python language. You don't need to know Python as 
+you can create programs by dragging and dropping blocks on the CodeBug website.
+Once you've completed your program, you need to transfer it onto your CodeBug. 
+You can do this:
+  - with one button click from the CodeBug website over the Internet (provided 
+  your CodeBug Connect can also access the Internet!)
+  - with a direct connection to your CodeBug from your web browser over WiFi
+  (Internet connection not required)
   - over USB, with CodeBug Connect appearing as a removable disk drive.
 
 
@@ -20,10 +26,11 @@ you can connect.
 Using an existing Access point
 ------------------------------
 
-Your CodeBug connect can connect to a WiFi access point, such as your home 
-router or tether to a mobile phone. This typically allows CodeBug Connect 
-access to the Internet. It also usually means other computers connected to 
-the same access point will be able to connect to the CodeBug Connect.
+This is probably the most common use case, your CodeBug connect will connect 
+to a WiFi access point, such as your home, school or office router, or tether 
+to a mobile phone. This means CodeBug Connect can access to the Internet. 
+It also usually means other computers connected to the same access point 
+will be able to connect to the CodeBug Connect.
 
 
 CodeBug Connect's Built in access point

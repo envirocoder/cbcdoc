@@ -18,8 +18,20 @@ CodeBug Connect has configuration options that control the boot process.
 Run mode boot configuration
 ===========================
 
+Does internal setup, checks config.json
+
+            'start_ap': True,
+            'auto_connect': True,
+            'fallback_to_ap': True,
+            'start_mdns': True,
+            'start_webconsole': True,
+            'start_webserver': True,
+            'remote_checkin': "http://www.codebug.org.uk",
+            'remote_debug': True,
+            'wait_for_connection': True,
+
 config.json 
-
-
-
 select options through web interface
+
+then if found in the filesystem runs boot.py. This file can then run your projects
+setup by default when you deploy a project.
