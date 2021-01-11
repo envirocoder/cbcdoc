@@ -7,11 +7,12 @@ that contain programs in the Python language. You don't need to know Python as
 you can create programs by dragging and dropping blocks on the CodeBug website.
 Once you've completed your program, you need to transfer it onto your CodeBug. 
 You can do this:
-  - with one button click from the CodeBug website over the Internet (provided 
+
+* with one button click from the CodeBug website over the Internet (provided 
   your CodeBug Connect can also access the Internet!)
-  - with a direct connection to your CodeBug from your web browser over WiFi
+* with a direct connection to your CodeBug from your web browser over WiFi
   (Internet connection not required)
-  - over USB, with CodeBug Connect appearing as a removable disk drive.
+* over USB, with CodeBug Connect appearing as a removable disk drive.
 
 
 Connecting using WiFi
