@@ -2,36 +2,56 @@
 Boot process
 ************
 
-CodeBug Connect has configuration options that control the boot process.
+CodeBug Connect has three boot modes.
 
+* By default CodeBug Connect boots in run mode. The exact behaviour
+  depends on the :ref:`Run mode boot configuration`.
 * Pressing and holding the centre of button A while applying power will 
-  cause CodeBug Connect to boot as a USB drive. To avoid the chance of 
-  file system corruption it will not run any of your programs.
+  cause CodeBug Connect to boot as a USB drive. To prevent file system 
+  corruption it will not run any of your programs at the same time.
 * CodeBug Connect can be set to upgrade itself. As part of this it will 
   boot in a special mode to update its operating system. If it fails to 
   find its operating system it will boot into upgrade mode. Upgrade more is 
   completely separate mode which has no access to the filesystem and
   cannot run your programs. See :doc:`updating` for more information.
-* By default CodeBug Connect boots in run mode. The exact behaviour
-  depends on the config.json file.
 
-Run mode boot configuration
-===========================
+Run mode
+========
 
-Does internal setup, checks config.json
+boot configuration
+------------------
 
-            'start_ap': True,
-            'auto_connect': True,
-            'fallback_to_ap': True,
-            'start_mdns': True,
-            'start_webconsole': True,
-            'start_webserver': True,
-            'remote_checkin': "http://www.codebug.org.uk",
-            'remote_debug': True,
-            'wait_for_connection': True,
+In normal run mode, CodeBug Connect can do some tasks automatically,
+such as automatically connecting to a WiFi network, checking for updates 
+or starting its webserver. These boot options are specified in the 
+``config.json`` file.
 
-config.json 
-select options through web interface
+.. code-block:: json
 
-then if found in the filesystem runs boot.py. This file can then run your projects
-setup by default when you deploy a project.
+  {
+          "start_ap": true,
+          "auto_connect": true,
+          "fallback_to_ap": true,
+          "start_mdns": true,
+          "start_webconsole": true,
+          "start_webserver": true,
+          "remote_checkin": "https://cbc.codebug.org.uk",
+          "remote_debug": true,
+          "wait_for_connection": true,
+          "button_b_wifi_boot" : true
+  }
+
+You can set the options graphically, through the web interface. Alternatively
+you can edit the ``config.json`` just as you would any other file; either 
+over USB as a removable drive, or through the web client.
+
+running your program
+--------------------
+
+Once the actions specified in ``config.json`` are complete, your CodeBug 
+Connect runs the ``boot.py`` file. This file can either contain code to run
+directly, or link to run your projects.
+
+.. warning:: ``boot.py`` can be automatically setup when you deploy a project, so it may
+  get overwritten. As such you are advised to keep you programs in their own
+  file, and reference them in ``boot.py``.

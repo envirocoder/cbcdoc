@@ -2,9 +2,9 @@
 Summary
 *******
 
-CodeBug Connect runs programs from its 1MB of inbuilt storage. CodeBug runs files
-that contain programs in the Python language. You don't need to know Python as 
-you can create programs by dragging and dropping blocks on the CodeBug website.
+CodeBug Connect runs programs from its 1MB of inbuilt storage. These programs 
+are written in the Python language, but you don't need to know Python. 
+You can create programs by dragging and dropping blocks on the CodeBug website.
 Once you've completed your program, you need to transfer it onto your CodeBug. 
 You can do this:
 
