@@ -2,7 +2,7 @@
 Quickstart
 **********
 
-Can't wait to get started with your new CodeBug? This guide will help you get the most out of it.
+Can't wait to get started with your new CodeBug Connect? This guide will help you get the most out of it.
 
 Introduction
 ===========
