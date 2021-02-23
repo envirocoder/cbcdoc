@@ -7,9 +7,9 @@ Can't wait to get started with your new CodeBug Connect? This guide will help yo
 Introduction
 ===========
 
-You can create programs by dragging and dropping blocks on the CodeBug website, or writing text based Python. Once you've completed your program, you need to transfer it onto your CodeBug. Do this in one of three ways:
+You can create programs by dragging and dropping blocks on the CodeBug website, or writing text based Python. Once you've completed your program, you need to transfer it onto your CodeBug Connect. Do this in one of three ways:
 
-* Use CodeBug Connect as a USB disk drive and transfer files using through your computer's file manager.
+* Use CodeBug Connect as a USB disk drive and transfer files using your computer's file manager.
 
 * Connect directly to CodeBug Connect from your web browser and edit files directly or transfer files via drag and drop into your browser.
 
@@ -43,7 +43,7 @@ Creating your first program
      :alt: Create New Project Button
      :align: center
 
-#. Edit the ``scroll message`` field to you chosen message and choose your favourite colour.
+#. Edit the ``scroll message`` field to your chosen message and choose your favourite colour.
 
    .. figure:: img/quickstart/EditMessage.png
      :alt: Edit the message
