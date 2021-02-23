@@ -11,7 +11,7 @@ You can create programs by dragging and dropping blocks on the CodeBug website, 
 
 * Use CodeBug Connect as a USB disk drive and transfer files using through your computer's file manager.
 
-* Connect directly to CodeBug Connect from your webrowser and edit files directly or transfer files via drag and drop into your browser.
+* Connect directly to CodeBug Connect from your web browser and edit files directly or transfer files via drag and drop into your browser.
 
 * Schedule a remote transfer from the CodeBug Website. Next time your CodeBug Connect checks in it will fetch the new program. (To do this your CodeBug Connect requires Internet access and you must have 'adopted it' into your account.)
 
