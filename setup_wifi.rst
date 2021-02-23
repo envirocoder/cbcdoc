@@ -2,9 +2,54 @@
 Setting Up WiFi
 ***************
 
-By default CodeBug Connect has WiFi turned on. As part of starting up, it will try to connect to a wireless network. If it can't connect to one, it will host its own, so you can connect to it. We recommend
+By default CodeBug Connect has WiFi turned on. When CodeBug Connect starts up, it will try to connect to a wireless network. Unlike many similar devices CodeBug Connect stores a list of possible networks and will choose the strongest. If it can't connect to one (for instance, none is available, or the network SSID or password is wrong), it will host its own Access Point for you to connect to it. 
 
-You can
+You can configure WiFi either by editing the ``wifi.cfg`` file or through menus in a web browser. We recommend using a web browser.
 
-Connecting
-Assuming
+Setting up WiFi though a web browser
+====================================
+
+If you haven't already set up WiFi you need to first connect to the access point hosted by CodeBug Connect.
+
+#. Power on Codebug Connect.
+
+#. CodeBug Connect will scan for available networks, indicated by purple wifi scan.
+
+   .. figure:: img/wifi/WiFiScan.png
+     :alt: Wifi scan begin
+     :align: center
+
+#. Assuming no suitable network is found, CodeBug Connect's display will indicate this by briefly showing blue before starting an access point.
+
+   .. figure:: img/wifi/WiFiNotFound.png
+     :alt: Wifi not found
+     :align: center
+
+#. CodeBug Connect will scroll in red ``ap`` followed by the name of it's access point. The name will be ``codebug_xxxxxxx`` where x is a number or letter a-f. Perform a scan for wireless networks on your computer or smartphone and choose to connect to the corresponding ``codebug_xxxxxxx`` network.
+
+   .. note:: When you connect to your CodeBug Connect as an access point your laptop will no longer be connected to your old access point and as such may not have Internet access!
+
+#. Upon a successful connection CodeBug Connect will scroll an address beginning ``http://`` in green. Usually, this will be ``http://192.168.4.1``. 
+
+
+#. On your laptop of smart phone open a web browser and visit http://codebug.local . This may not work for some operating systems, in which case you need to enter the green number that scrolled past (which will usually be http://192.168.4.1)
+
+#. After a few seconds CodeBug Connect's onboard IDE will load. Click the WiFi button on the top right.
+
+#. CodeBug Connect will scan for WiFi networks nearby. Choose your access point and enter your WiFi's password.
+
+#. Wait for the window to reload. It should show the newly stored access point.
+
+#. Click reboot. You may need to reselect your usual WiFi access point for your laptop or smartphone.
+
+#. CodeBug Connect will now try and connect to the stored access point. 
+
+#. If successful CodeBug Connect will briefly show green and then scroll the address CodeBug has been assigned by your router. You may need to make a note of this address if connecting to http://codebug.local did not work earlier.
+
+#. You should now be able to connect to your CodeBug Connect on your local network by visiting http://codebug.local or if that doesn't work, the address you made a note of.
+
+From here you can run edit and debug program from CodeBug's onboard IDE or deploy your projects remotely.
+
+* :doc:`remotedeployment` guide.
+
+* :doc:`onboardide` guide.
