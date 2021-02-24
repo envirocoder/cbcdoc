@@ -63,7 +63,7 @@ Creating your first program
 Transferring your program to a physical CodeBug Connect
 =======================================================
 
-Once you have created your first program and checked it works in the simulator you need to transfer it to your physical CodeBug Connect. This guides uses USB disk mode, which doesn't require using the WiFi. For other ways to transfer, or if your device cannot connect with USB (e.g. iPads, some smartphones etc.) see :doc:`connection_modes`.
+Once you have created your first program and checked it works in the simulator you need to transfer it to your physical CodeBug Connect. This guides uses USB disk mode, which doesn't require using the WiFi. For other ways to transfer, or if your device cannot connect with USB (e.g. iPads, some smartphones etc.) see :doc:`../detail/connection_modes`.
 
 #. Click ``DOWNLOAD`` and save the file to your computer.
 
