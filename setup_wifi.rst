@@ -25,7 +25,7 @@ If you haven't already set up WiFi you need to first connect to the access point
      :alt: Wifi not found
      :align: center
 
-#. CodeBug Connect will scroll in red ``ap`` followed by the name of it's access point. The name will be ``codebug_xxxxxxx`` where x is a number or letter a-f. Perform a scan for wireless networks on your computer or smartphone and choose to connect to the corresponding ``codebug_xxxxxxx`` network.
+#. CodeBug Connect will scroll in red `ap` followed by the name of its access point. The name will be ``codebug_xxxxxxx`` where x is a number or letter a-f. Perform a scan for wireless networks on your computer or smartphone and choose to connect to the corresponding ``codebug_xxxxxxx`` network.
 
    .. note:: When you connect to your CodeBug Connect as an access point your laptop will no longer be connected to your old access point and as such may not have Internet access!
 
@@ -53,3 +53,25 @@ From here you can run edit and debug program from CodeBug's onboard IDE or deplo
 * :doc:`remotedeployment` guide.
 
 * :doc:`onboardide` guide.
+
+Setting up WiFi over USB filestore
+==================================
+
+If you can't or don't want to setup a WiFi connection with your web browser, you edit the ``wifi.cfg`` file instead.
+
+#. Disconnect CodeBug Connect from all power sources.
+
+#. Press and hold the centre of Joystick A in while plugging CodeBug Connect into your computer's USB port. Keep it held until `USB` scrolls across in yellow. CodeBug Connect will show a yellow file icon when ready.
+
+   .. note:: Some computers, particularly Apple Macs, may take a few seconds to recognise CodeBug Connect as a disk.
+
+#. In your operating system's file manager navigate to CodeBug Connect and open ``wifi.cfg`` in a text editor.
+
+#. Add a new line with the name of your WiFi network and your WiFi password. You must enclose the network name and password each in ``"`` and separate them with ``,``.
+
+   For example if your network was called ``home_wifi`` and it's password was ``pw123`` then you would add the following into ``wifi.cfg``.
+
+   ``"home_wifi","pw123"``
+
+.. note:: The first time CodeBug Connect reboots after you have edited ``wifi.cfg`` it will extract your password and replace it with ``*``. This is to prevent the password being easily visible in the file.
+
