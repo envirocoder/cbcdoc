@@ -20,8 +20,9 @@ Creating your first program
 
 #. Visit |codebug_editor_link| and login or create a new account.
 
-.. |codebug_editor_link| raw:: html
-  <a href="https://www.codebug.org.uk/newide" target="_blank">CodeBug Connect Editor</a>
+   .. |codebug_editor_link| raw:: html
+   
+      <a href="https://www.codebug.org.uk/newide" target="_blank">CodeBug Connect Editor</a>
 
 #. From the main menu choose ``CODEBUG CONNECT`` → ``MY PROJECTS``
 
