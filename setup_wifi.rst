@@ -1,6 +1,6 @@
-***************
-Setting Up WiFi
-***************
+********************************
+Joining an existing WiFi Network
+********************************
 
 By default CodeBug Connect has WiFi turned on. When CodeBug Connect starts up, it will try to connect to a wireless network. Unlike many similar devices CodeBug Connect stores a list of possible networks and will choose the strongest. If it can't connect to one (for instance, none is available, or the network SSID or password is wrong), it will host its own Access Point for you to connect to it. 
 
