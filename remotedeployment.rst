@@ -11,16 +11,16 @@ CodeBug Connects can only be adopted by one account at once. By default they bec
 
 #. Visit |codebug_adoption_link| page and, if not already, login from the account you wish to do the adoption.
 
-.. |codebug_adoption_link| raw:: html
+   .. |codebug_adoption_link| raw:: html
 
-  <a href="https://www.codebug.org.uk/newide/adoptionkey/" target="_blank">CodeBug Connect Adoption</a>
+     <a href="https://www.codebug.org.uk/newide/adoptionkey/" target="_blank">CodeBug Connect Adoption</a>
 
 
 #. Click ``Download Key``. You should obtain a file ``adoption_key.dat``.
 
 #. Copy the ``adoption_key.dat`` file into the top level directory of your CodeBug Connect. Follow the instructions in :doc:`quickstart` about transferring files. 
 
-.. warning:: Ensure that the file name matches ``adoption_key.dat`` and your web browser has not renamed it to ``adoption_key-1.dat`` or similar, as these will not work.
+   .. warning:: Ensure that the file name matches ``adoption_key.dat`` and your web browser has not renamed it to ``adoption_key-1.dat`` or similar, as these will not work.
 
 #. After ejecting (or for some operating systems unmounting) the CodeBug Connect USB disk unplug and remove power.
 
@@ -28,6 +28,6 @@ CodeBug Connects can only be adopted by one account at once. By default they bec
 
 #. Check your CodeBug Connect has been successfully adopted. If successful your CodeBug Connect will be listed on the |my_codebugs_link| page of the website and your username should be stored on your CodeBug Connect's filesystem in the file ``owner.txt``.
 
-.. |my_codebugs_link| raw:: html
+   .. |my_codebugs_link| raw:: html
 
-  <a href="https://www.codebug.org.uk/newide/devices" target="_blank">My CodeBug Connects</a>
+     <a href="https://www.codebug.org.uk/newide/devices" target="_blank">My CodeBug Connects</a>
