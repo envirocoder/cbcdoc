@@ -14,7 +14,7 @@ Use the file viewer to explore what is stored on your CodeBug Connect, or perfor
 Text Editor
 ===========
 
-Use the text editor to update your python programs. For now, due to space constraints you cannot update block programs without using the full www.codebug,.org.uk website.
+Use the text editor to update your python programs. For now, due to space constraints you cannot update block programs without using the full www.codebug.org.uk website.
 
 Console
 ========
