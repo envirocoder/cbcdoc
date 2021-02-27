@@ -32,7 +32,7 @@ If you haven't already set up WiFi you need to first connect to the access point
 #. Upon a successful connection CodeBug Connect will scroll an address beginning ``http://`` in green. Usually, this will be ``http://192.168.4.1``. 
 
 
-#. On your laptop of smart phone open a web browser and visit http://codebug.local . This may not work for some operating systems, in which case you need to enter the green number that scrolled past (which will usually be http://192.168.4.1)
+#. On your laptop or smart phone open a web browser and visit http://codebug.local . This may not work for some operating systems, in which case you need to enter the green number that scrolled past (which will usually be http://192.168.4.1)
 
 #. After a few seconds CodeBug Connect's onboard IDE will load. Click the WiFi button on the top right.
 
@@ -50,9 +50,9 @@ If you haven't already set up WiFi you need to first connect to the access point
 
 From here you can run edit and debug program from CodeBug's onboard IDE or deploy your projects remotely.
 
-* :doc:`remotedeployment` guide.
-
 * :doc:`onboardide` guide.
+
+* :doc:`remotedeployment` guide.
 
 Setting up WiFi over USB filestore
 ==================================
