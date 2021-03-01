@@ -99,12 +99,12 @@ Tweet @cheerlights a colour and see your CodeBug Connect change colour. (You mus
 .. code-block:: python
 
     import cbc
-    import cbc.network
+    from remote_manage import WebSocketClient
     from cbc import Color
 
     def on_event(e):
-        cbc.display.pixels[0,2] = Color(e.decode())
+        cbc.display.pixels[0,2] = Color(e[1].decode())
 
-    ws = cbc.network.WebSocketClient(url="ws://cheerlights.codebug.org.uk/cheer/", on_data=on_event)
+    ws = WebSocketClient(url="ws://cheerlights.codebug.org.uk/cheer/", on_text_data=on_event)
 
     
