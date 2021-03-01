@@ -81,7 +81,7 @@ Once you have created your first program and checked it works in the simulator y
 
    .. warning:: You must make sure your program is transferred onto your CodeBug as ``boot.py`` and exactly that. ``boot-1.py`` or anything else will not be run. Be aware that some web browsers rename downloaded files, in which case you need to rename it back.
 
-   .. note:: CodeBug Connect will always start by running the ``boot.py`` file.   See :doc:`boot` for more information.
+   .. note:: CodeBug Connect will always start by running the ``boot.py`` file.   See :doc:`../detail/boot` for more information.
 
 #. Eject (or for some operating systems unmount) the CodeBug Connect USB disk before unplugging. On most computers (not some Apple Macs) the yellow file icon on CodeBug Connect will turn green indicating it's safe to unplug.
 
