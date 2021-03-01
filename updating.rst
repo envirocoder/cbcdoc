@@ -16,7 +16,7 @@ The update process is done over the Internet so you must have setup a WiFi conne
 Update Process
 ==============
 
-Make sure you have stored your WiFi Access point and password in your Codebug Connect.  Before attempting to upgrade you should double check CodeBug can successfully connect to your WiFi.
+Make sure you have stored your WiFi access point and password in your Codebug Connect.  Before attempting to upgrade you should double check CodeBug can successfully connect to your WiFi.
 
 .. caution:: Always backup your files before updating CodeBug Connect.
 
@@ -29,7 +29,7 @@ To update CodeBug, follow these steps:
    import remote_manage
    remote_manage.reboot_into_update()
 
-#. read and follow the instructions displayed. Enter ``yes`` if approriate.
+#. read and follow the instructions displayed. Enter ``yes`` if appropriate.
 
 #. When prompted, remove the power.
 
@@ -60,7 +60,7 @@ To update CodeBug, follow these steps:
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
-If the update process fails, the LEDs show the failure reason. If no data was download then on next reboot CodeBug Connect will return to run mode with the old system files. However, once a download commences the system files will have been over-written and CodeBug Connect will not boot until a successful update is achieved.
+If the update process fails, the LEDs show the failure reason. If no data was downloaded then on next reboot CodeBug Connect will return to run mode with the old system files. However, once a download commences the system files will have been over-written and CodeBug Connect will not boot until a successful update is achieved.
 
 .. note:: In update mode, USB Drive and the on-board IDE modes are not available.
 
