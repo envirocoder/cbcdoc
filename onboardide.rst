@@ -24,7 +24,7 @@ The console allows you to run Python interactively and also see the results of p
 .. code-block:: python
 
     import cbc
-    cbc.display.scroll_test("hello me!")
+    cbc.display.scroll_text("hello me!")
 
 or
 
