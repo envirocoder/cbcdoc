@@ -53,6 +53,7 @@ Coloured arrows dependent on direction of button A
         print('adding callback on joystick_a to display arrows')
         cbc.joystick_a.on_direction_any = display_arrow
 
+    arrows()
 
 Force dependent colours (light painting)
 ========================================
@@ -60,6 +61,7 @@ Force dependent colours (light painting)
 CodeBug Connect's LEDs change colour dependent on the force applied (try gentle shaking)
 
 .. code-block:: python
+
     import cbc
     def force_colour():
         sat = 1.0
@@ -68,8 +70,18 @@ CodeBug Connect's LEDs change colour dependent on the force applied (try gentle 
             mag = vec.x*vec.x + vec.y*vec.y + vec.z*vec.z
             cbc.display.pixels[:, 0:5] = [[cbc.Color(h=mag/10.0, s=sat, b=bright)] * 5]*5
 
+    force_colour()
+
 Pir Alarm
 =========
+
+Connect the Pir as shown below
+
+.. image:: img/pir.jpg
+    :alt: Connecting the PIR
+
+.. image:: img/pir2.jpg
+    :alt: Connecting the PIR
 
 .. code-block:: python
 
@@ -90,6 +102,7 @@ Pir Alarm
                 
         pir.irq(handler=handle_pir, trigger=Pin.IRQ_RISING|Pin.IRQ_FALLING)
 
+    pir_alarm()
 
 Cheer lights
 ============
